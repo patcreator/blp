@@ -1,0 +1,155 @@
+
+  body{
+    background: black;
+    color: white;
+  }
+  .cta-section {
+      background: linear-gradient(to bottom left, #000 10%, #001 );
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cta-section h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .cta-section p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      background-color: #28a745;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 50px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .cta-button:hover {
+      background-color: #218838;
+      transform: translateY(-5px);
+    }
+
+    .cta-button:focus {
+      outline: none;
+    }
+
+    .cta-section img {
+      max-width: 170px;
+      margin-top: 20px;
+    }
+
+
+
+    /*photo gallery tabs*/
+
+
+
+    .photo-tabs {
+      margin-bottom: 2rem;
+    }
+
+    .grid-item {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .grid-item img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+    }
+
+    .credit-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 5px 10px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #ccc;
+      font-size: 0.8rem;
+      text-align: right;
+    }
+    .text-light-2{
+      color:#aaa;
+    }
+
+    /*youtube section*/
+    .youtube {
+      background-color: #121212;
+      color: #fff;
+    }
+    .video-card {
+      background: #1e1e1e;
+      border: none;
+      border-radius: 12px;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      height: 100%;
+    }
+    .video-card:hover {
+      transform: scale(1.02);
+    }
+    .video-thumb {
+      border-radius: 12px 12px 0 0;
+    }
+    .video-title {
+      padding: 10px;
+      font-size: 1rem;
+      color: #ccc;
+    }
+    .card-body{
+    background: black;
+  }
+  .quick{
+    color: white;
+  }
+  .quick a{
+    color: #789;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .quick q{
+    font-size: 1.3rem;
+    margin-bottom: 6px;
+    display: block;
+    color: #aaa;
+  }
+  .quick p{
+    color: white;
+    margin-bottom: 10px;
+  }
+  .trending-album-song .item{
+    background: rgba(100, 100, 100, 0.1) !important;
+    color: white;
+  }
+  .trending-album-song .item .down-content h4{
+    color: white !important;
+  }
+  .trending-album-song .item .down-content a{
+    background-color: #333 !important;
+    width: 50px !important;
+    border-radius: 10px !important;
+  }
+  .trending-album-song .item .down-content a:hover{
+    background-color: #444 !important;
+  }
+  .trending-album-song .item .thumb{
+    border-radius: 0px !important;
+  }
+  .trending-album-song .item .price{
+    background-color: rgba(0, 0, 0, 0.9) !important;
+  }
+  .trending-album-song .item:hover{
+    transform: scale(1.05);
+  }
+  .trending-album-song .is_active{
+    background: #111 !important;
+  }
